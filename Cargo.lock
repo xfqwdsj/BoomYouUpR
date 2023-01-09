@@ -762,16 +762,14 @@ dependencies = [
 
 [[package]]
 name = "notify-rust"
-version = "4.6.0"
+version = "4.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5cc2e370356160e41aba3fd0fbac26d86a89ddd2ac4300c03de999a77cfa2509"
+checksum = "3ce656bb6d22a93ae276a23de52d1aec5ba4db3ece3c0eb79dfd5add7384db6a"
 dependencies = [
  "mac-notification-sys",
  "serde",
  "tauri-winrt-notification",
  "zbus",
- "zvariant",
- "zvariant_derive",
 ]
 
 [[package]]
@@ -832,8 +830,8 @@ checksum = "86f0b0d4bf799edbc74508c1e8bf170ff5f41238e5f8225603ca7caaae2b7860"
 name = "opener"
 version = "0.5.0-fan"
 dependencies = [
-    "bstr",
-    "windows 0.43.0",
+ "bstr",
+ "windows 0.43.0",
 ]
 
 [[package]]
@@ -1132,11 +1130,11 @@ version = "0.9.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "92b5b431e8907b50339b51223b97d102db8d987ced36f6e4d03621db9316c834"
 dependencies = [
-    "indexmap",
-    "itoa",
-    "ryu",
-    "serde",
-    "unsafe-libyaml",
+ "indexmap",
+ "itoa",
+ "ryu",
+ "serde",
+ "unsafe-libyaml",
 ]
 
 [[package]]
